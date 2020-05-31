@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>RegExpProject</title>
+        <link rel="stylesheet" type="text/css" href="css/RegExpProject.css">
+    </head>
+    <body>
+        <div class="wrap">
+            <p class="reg">用户注册</p>
+            <!-- 验证表单区域 -->
+            <div class="regForm">
+                <table class="tab">
+                    <tr>
+                        <td class="left">用户名：</td>
+                        <td class="middle">
+                            <input type="text" name="username" id="username">
+                        </td>
+                        <td class="right">
+                            <!-- 此处是用户名提示区域 -->
+                            <div class="iok"></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="left">登录密码：</td>
+                        <td class="middle">
+                            <input type="password" name="pwd" id="pwd">
+                        </td>
+                        <td class="right">
+                            <!-- 登录密码文字提示区域 -->
+                            <div class="iok"></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="left">确认密码：</td>
+                        <td class="middle">
+                            <input type="password" name="agPwd" id="agPwd">
+                        </td>
+                        <td class="right">
+                            <!-- 确认密码文字提示区域 -->
+                            <div class="iok"></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="left">姓名：</td>
+                        <td class="middle">
+                            <input type="text" name="fullname" id="fullname">
+                        </td>
+                        <td class="right">
+                            <!-- 姓名文字提示区域 -->
+                            <div class="iok"></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <!-- 因为select有默认的选项,所以不用判断用户是否选择 -->
+                        <td class="left">性别：</td>
+                        <td class="middle">
+                            <select class="len" id="sex">
+                                <option>男</option>
+                                <option>女</option>
+                            </select>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="left">身份证号码：</td>
+                        <td class="middle">
+                            <input type="text" name="idNumber" id="idNumber">
+                        </td>
+                        <td class="right">
+                            <!-- 身份证号码文字提示区域 -->
+                            <div class="iok"></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="left">邮箱：</td>
+                        <td class="middle">
+                            <input type="email" name="pemail" id="pemail">
+                        </td>
+                        <td class="right">
+                            <!-- 邮箱文字提示区域 -->
+                            <div class="iok"></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="left">手机号码：</td>
+                        <td class="middle">
+                            <input type="text" name="phoneNumber" id="phoneNumber">
+                        </td>
+                        <td class="right">
+                            <!-- 手机号码提示区域 -->
+                            <div class="iok"></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <input type="submit" class="btn" id="subbtn">
+                        </td>
+                    </tr>
+                </table>
+            </div><!-- regForm  -->
+        </div><!-- wrap -->
+
+        <script type="text/javascript" src="js/RegExpProject.js"></script>
+    </body>
+</html>
